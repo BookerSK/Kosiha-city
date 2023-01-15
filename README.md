@@ -7,3 +7,5 @@ Another commands can interact with city. You can make your own citizen: Game -> 
 Without creating any citizen this program doesn't make any sense:)
 
 Also you can run a bot in telegram. Running the bot allows real players run commands like Game -> Cont, so they can set action to citizen or they can see city statistics. 
+
+There are some troubles with Russian and English translations, but I shared this project, because I wanted to try GitHub opportunities
