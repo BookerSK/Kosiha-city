@@ -162,7 +162,6 @@ class City:
                                                         'wealthy', 'aristocratic'])
                     df_final = pd.concat([df_final, list_social], ignore_index=True)
             elif departament.lower() == 'health_age':
-                # ЕБЕМСЯ С ЭТИМ
                 yesterday = pd.Timestamp(datetime.date(2000, 1, 1).today() - datetime.timedelta(days=1))
                 df_yesterday = self.summary_citizen[self.summary_citizen['Date'] == yesterday]
                 df_yesterday = df_yesterday[['Citizen_id', 'Health']]
